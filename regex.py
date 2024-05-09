@@ -1,7 +1,7 @@
 import re
 
 text = "Emails: info@gmail.com, support@hotmail.com, customer-service@yahoo.com, customer-support@hotmail.com"
-# Comments for reges:
+# Comments for regex:
     # user_email: Matches one or more word characters (letters, digits, or underscores), dots, or hyphens.
     # domain: Matches one or more letters (uppercase or lowercase), digits, dots, or hyphens for the domain name part.
     # (?!hotmail\.com): Exclude all emails that have domain name of hotmail.com
